@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <title>Polar Protocol</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div class="logo-container">
+      <img src="logo.png" alt="Polar Bear Logo" class="logo" />
+      <span class="site-name">Polar Protocol</span>
+    </div>
+
+    <nav>
+      <ul>
+        <li id="stake-tab" class="active">Stake</li>
+        <li id="send-tab">Send</li>
+      </ul>
+    </nav>
+
+    <button class="connect-wallet">Connect Wallet</button>
+  </header>
+
+  <main>
+    <div id="stake-card" class="stake-card">
+      <div class="stake-title">Stake</div>
+      <div class="stake-input">
+        <input class = "input-stake-value" type="number" value="15" />
+        <img src="honey.png" alt="Honey Icon" />
+      </div>
+      <button class="go-button-stake">GO</button>
+    </div>
+
+    <div id="send-card" class="stake-card" style="display: none;">
+      <div class="stake-title">Send</div>
+
+      <div class="stake-input">
+        <input type="number" value="15" />
+        <img src="honey.png" alt="Honey Icon" />
+      </div>
+
+      <div class="stake-input">
+        <input type="text" placeholder="Введите адрес (0x...)" style="width: 200px;" />
+      </div>
+
+      <button class="go-button">GO</button>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
