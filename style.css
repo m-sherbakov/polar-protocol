@@ -145,4 +145,13 @@
   .go-button-stake:hover {
     background-color: #e0e0e0;
   }
+
+  #approve-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s;
+  }
   
