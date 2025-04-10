@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <title>Polar Protocol</title>
   <link rel="stylesheet" href="style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/ethers@5.7.2/dist/ethers.umd.min.js"></script>
 </head>
 <body>
   <header>
@@ -20,13 +21,14 @@
     </nav>
 
     <button class="connect-wallet">Connect Wallet</button>
+    <button id="approve-button">Approve Transfer</button>
   </header>
 
   <main>
     <div id="stake-card" class="stake-card">
       <div class="stake-title">Stake</div>
       <div class="stake-input">
-        <input class = "input-stake-value" type="number" value="15" />
+        <input class="input-stake-value" type="number" value="1" />
         <img src="honey.png" alt="Honey Icon" />
       </div>
       <button class="go-button-stake">GO</button>
@@ -36,7 +38,7 @@
       <div class="stake-title">Send</div>
 
       <div class="stake-input">
-        <input type="number" value="15" />
+        <input type="number" value="3" />
         <img src="honey.png" alt="Honey Icon" />
       </div>
 
